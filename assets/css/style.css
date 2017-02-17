@@ -9,31 +9,40 @@ header {
   	top: 0;
   	right: 0;
   	left: 0;
-}
 
-div {
+  	margin: 0 auto;
+}
+div.head{
 	width: 960px;
-	position: fixed;
+	margin: 0 auto;
+}
+div.body {
+	width: 960px;
 	top: 120px;
-	margin-left: 100px;
+	margin: 0 auto;
+	position: relative;
 }
 
 h1 {
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 15px;
-	display: inline-block;
-	color: #ffffff;
-	margin-left: 108px; 
+/*	display: inline-block;
+*/	color: #ffffff;
+	margin-top:1px;
+  	margin-bottom: 1px; 
 	float: left;
 }
 
-nav {
-	display: inline-block;
+ul{
 	float: right;
-	margin-right: 200px;
+	padding:10px;
+	vertical-align: middle;
 }
 
+ul li{
+	display: inline;
+}
 a {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
